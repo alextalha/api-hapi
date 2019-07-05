@@ -1,0 +1,5 @@
+levantando um mongo db
+
+sudo docker pull mongo
+sudo docker run -p 27017:27017 --rm --name api-db -d mongo
+sudo docker ps 
